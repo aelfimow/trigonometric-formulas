@@ -13,19 +13,16 @@ int main(int, char *[])
 {
     fp32 const epsilon = macheps();
 
-    std::vector<fp32> x_values { };
+    fp32 const delta_x = (2.0f * std::numbers::pi_v<fp32>);
 
-    fp32 const step = ((4.0f * std::numbers::pi_v<fp32>) / 1000.0f);
-    fp32 const min = (-2.0f * std::numbers::pi_v<fp32>);
-    fp32 const max = (2.0f * std::numbers::pi_v<fp32>);
+    int const denominator = 1000;
 
-    for (fp32 x = min; x <= max; x += step)
+    for (int nominator = -denominator; nominator <= denominator; ++nominator)
     {
-        x_values.push_back(x);
-    }
+        fp32 const k = (static_cast<fp32>(nominator) / static_cast<fp32>(denominator));
 
-    for (fp32 const &x: x_values)
-    {
+        fp32 const x = (k * delta_x);
+
         fp32 const lhs_value = lhs(x);
         fp32 const rhs_value = rhs();
 
@@ -37,10 +34,9 @@ int main(int, char *[])
         {
             std::cout
                 << std::setprecision(10)
-                << "Check failed for (fp32): x = "
-                << x
-                << "; diff = "
-                << diff
+                << "Check failed for (fp32): x = " << x
+                << "; diff = " << diff
+                << "; " << nominator << "/" << denominator
                 << std::endl;
         }
     }
