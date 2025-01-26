@@ -9,13 +9,15 @@
 #include "rhs.h"
 #include "macheps.h"
 
+#include <quadmath.h>
+
 namespace
 {
     std::string to_str(fp128 const value)
     {
         std::vector<char> buffer(256U);
 
-        ::quadmath_snprintf(buffer.data(), buffer.size(), "%.36Qe", omega);
+        ::quadmath_snprintf(buffer.data(), buffer.size(), "%.36Qe", value);
 
         std::string const str(buffer.data());
 
