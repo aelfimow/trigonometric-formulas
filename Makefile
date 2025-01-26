@@ -14,7 +14,10 @@ CXXFLAGS += -Wfloat-conversion
 CXXFLAGS += -Wfloat-equal
 CXXFLAGS += -fext-numeric-literals
 
+LDFLAGS = -lquadmath
+
 export CXXFLAGS
+export LDFLAGS
 
 .PHONY: formula1
 
