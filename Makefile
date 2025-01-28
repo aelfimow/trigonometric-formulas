@@ -20,9 +20,14 @@ export CXXFLAGS
 export LDFLAGS
 
 .PHONY: formula1
+.PHONY: formula2
 
 all:
 	${MAKE} -C formula1
+	${MAKE} -C formula2
 
 formula1:
 	${MAKE} -C formula1
+
+formula2:
+	${MAKE} -C formula2
