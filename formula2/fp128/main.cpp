@@ -31,6 +31,8 @@ int main(int, char *[])
 
     fp128 const delta_x = (2.0Q * M_PIq);
 
+    size_t failed_cnt = 0U;
+    size_t ok_cnt = 0U;
     int const denominator = 1000;
 
     for (int nominator = -denominator; nominator <= denominator; ++nominator)
@@ -46,6 +48,9 @@ int main(int, char *[])
 
         bool const failed = (diff >= epsilon);
 
+        failed_cnt += failed ? 1U : 0U;
+        ok_cnt += not failed ? 1U : 0U;
+
         if (failed)
         {
             std::cout
@@ -59,6 +64,13 @@ int main(int, char *[])
     std::cout
         << "Epsilon (fp128): "
         << to_str(epsilon)
+        << std::endl;
+
+    std::cout
+        << "Failed: "
+        << failed_cnt
+        << "; OK: "
+        << ok_cnt
         << std::endl;
 
     return EXIT_SUCCESS;
