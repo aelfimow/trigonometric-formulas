@@ -1,14 +1,13 @@
-#include <cstdlib>
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <numbers>
-
 #include "fp128.h"
 #include "lhs.h"
 #include "rhs.h"
 #include "macheps.h"
 
+#include <cstdlib>
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <numbers>
 #include <quadmath.h>
 
 namespace
