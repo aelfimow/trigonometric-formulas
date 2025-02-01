@@ -1,13 +1,15 @@
+#include "fp64.h"
+#include "lhs.h"
+#include "rhs.h"
+#include "macheps.h"
+
 #include <cstdlib>
 #include <iostream>
 #include <iomanip>
 #include <vector>
 #include <numbers>
+#include <cmath>
 
-#include "fp64.h"
-#include "lhs.h"
-#include "rhs.h"
-#include "macheps.h"
 
 int main(int, char *[])
 {
@@ -26,7 +28,7 @@ int main(int, char *[])
         fp64 const lhs_value = lhs(x);
         fp64 const rhs_value = rhs(x);
 
-        fp64 const diff = (lhs_value - rhs_value);
+        fp64 const diff = fabs(lhs_value - rhs_value);
 
         bool const failed = (diff >= epsilon);
 
