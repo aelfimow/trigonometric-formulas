@@ -17,6 +17,8 @@ int main(int, char *[])
 
     fp32 const delta_x = (2.0f * std::numbers::pi_v<fp32>);
 
+    size_t failed_cnt = 0U;
+    size_t ok_cnt = 0U;
     int const denominator = 1000;
 
     for (int nominator = -denominator; nominator <= denominator; ++nominator)
@@ -31,6 +33,9 @@ int main(int, char *[])
         fp32 const diff = fabsf(lhs_value - rhs_value);
 
         bool const failed = (diff >= epsilon);
+
+        failed_cnt += failed ? 1U : 0U;
+        ok_cnt += not failed ? 1U : 0U;
 
         if (failed)
         {
@@ -47,6 +52,13 @@ int main(int, char *[])
         << std::setprecision(10)
         << "Epsilon (fp32): "
         << epsilon
+        << std::endl;
+
+    std::cout
+        << "Failed: "
+        << failed_cnt
+        << "; OK: "
+        << ok_cnt
         << std::endl;
 
     return EXIT_SUCCESS;
