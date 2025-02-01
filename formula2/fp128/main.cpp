@@ -2,6 +2,7 @@
 #include "lhs.h"
 #include "rhs.h"
 #include "macheps.h"
+#include "to_str.h"
 
 #include <cstdlib>
 #include <iostream>
@@ -9,20 +10,6 @@
 #include <vector>
 #include <numbers>
 #include <quadmath.h>
-
-namespace
-{
-    std::string to_str(fp128 const value)
-    {
-        std::vector<char> buffer(256U);
-
-        ::quadmath_snprintf(buffer.data(), buffer.size(), "%.36Qe", value);
-
-        std::string const str(buffer.data());
-
-        return str;
-    }
-}
 
 
 int main(int, char *[])
