@@ -2,6 +2,7 @@
 #include "lhs.h"
 #include "rhs.h"
 #include "macheps.h"
+#include "fpexception.h"
 
 #include <cstdlib>
 #include <iostream>
@@ -9,6 +10,7 @@
 #include <vector>
 #include <numbers>
 #include <cmath>
+#include <cfenv>
 
 
 int main(int, char *[])
@@ -27,8 +29,36 @@ int main(int, char *[])
 
         fp80 const x = (k * delta_x);
 
+        std::feclearexcept(FE_ALL_EXCEPT);
         fp80 const lhs_value = lhs(x);
+        bool const lhs_exception = fpexception();
+
+        std::feclearexcept(FE_ALL_EXCEPT);
         fp80 const rhs_value = rhs(x);
+        bool const rhs_exception = fpexception();
+
+        if (lhs_exception or rhs_exception)
+        {
+            if (lhs_exception)
+            {
+                std::cout
+                    << "Left hand side: floating point exception"
+                    << "; " << nominator << "/" << denominator
+                    << std::endl;
+            }
+
+            if (rhs_exception)
+            {
+                std::cout
+                    << "Right hand side: floating point exception"
+                    << "; " << nominator << "/" << denominator
+                    << std::endl;
+            }
+
+            failed_cnt += 1U;
+
+            continue;
+        }
 
         fp80 const diff = fabsl(lhs_value - rhs_value);
 
