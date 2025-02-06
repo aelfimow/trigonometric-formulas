@@ -23,8 +23,9 @@ export LDFLAGS
 .PHONY: formula2
 .PHONY: formula3
 .PHONY: formula4
+.PHONY: formula5
 
-all: formula1 formula2 formula3 formula4
+all: formula1 formula2 formula3 formula4 formula5
 
 formula1:
 	${MAKE} -C formula1
@@ -37,3 +38,6 @@ formula3:
 
 formula4:
 	${MAKE} -C formula4
+
+formula5:
+	${MAKE} -C formula5
