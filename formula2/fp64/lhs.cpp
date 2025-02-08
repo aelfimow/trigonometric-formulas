@@ -3,6 +3,13 @@
 
 #include <cmath>
 
+/**
+ * Left Hand Side:
+ *
+ * @f[
+ *     \tan{\alpha}
+ * @f]
+ */
 fp64 lhs(fp64 x)
 {
     fp64 const result = tan(x);
