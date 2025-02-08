@@ -3,6 +3,13 @@
 
 #include <cmath>
 
+/**
+ * Right Hand Side:
+ *
+ * @f[
+ *     \frac{\sin{\alpha}}{\cos{\alpha}}
+ * @f]
+ */
 fp64 rhs(fp64 x)
 {
     fp64 const a = sin(x);
