@@ -3,6 +3,13 @@
 
 #include <cmath>
 
+/**
+ * Right Hand Side:
+ *
+ * @f[
+ *     \frac{\sin{\alpha}}{\cos{\alpha}}
+ * @f]
+ */
 fp80 rhs(fp80 x)
 {
     fp80 const a = sinl(x);
