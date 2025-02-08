@@ -2,5 +2,5 @@
 
 Formula from [Book 1](../Buch1.md), p. 160
 
-$\sin^{2}\alpha + \cos^{2}\alpha = 1$
+$\sin^{2}{\alpha} + \cos^{2}{\alpha} = 1$
 
