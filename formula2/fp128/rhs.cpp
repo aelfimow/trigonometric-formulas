@@ -3,6 +3,13 @@
 
 #include <quadmath.h>
 
+/**
+ * Right Hand Side:
+ *
+ * @f[
+ *     \frac{\sin{\alpha}}{\cos{\alpha}}
+ * @f]
+ */
 fp128 rhs(fp128 x)
 {
     fp128 const a = sinq(x);
