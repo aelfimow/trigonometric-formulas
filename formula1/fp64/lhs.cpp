@@ -3,6 +3,13 @@
 
 #include <cmath>
 
+/**
+ * Left Hand Side:
+ *
+ * @f[
+ *     \sin^{2}{\alpha} + \cos^{2}{\alpha}
+ * @f]
+ */
 fp64 lhs(fp64 x)
 {
     fp64 const x1 = sin(x);
