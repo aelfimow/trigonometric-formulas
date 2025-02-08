@@ -3,6 +3,13 @@
 
 #include <quadmath.h>
 
+/**
+ * Left Hand Side:
+ *
+ * @f[
+ *     \sin^{2}{\alpha} + \cos^{2}{\alpha}
+ * @f]
+ */
 fp128 lhs(fp128 x)
 {
     fp128 const x1 = sinq(x);
