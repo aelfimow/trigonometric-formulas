@@ -3,6 +3,13 @@
 
 #include <cmath>
 
+/**
+ * Left Hand Side:
+ *
+ * @f[
+ *     \sin^{2}{\alpha} + \cos^{2}{\alpha}
+ * @f]
+ */
 fp80 lhs(fp80 x)
 {
     fp80 const x1 = sinl(x);
