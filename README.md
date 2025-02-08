@@ -9,3 +9,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 4. $1 + \tan^{2}{\alpha} = \frac{1}{\cos^{2}{\alpha}}$: [Formula 4](./formula4/README.md)
 5. $1 + \cot^{2}{\alpha} = \frac{1}{\sin^{2}{\alpha}}$: [Formula 5](./formula5/README.md)
 6. $\sin{\alpha + \beta} = \sin{\alpha}\cdot\cos{\beta} + \cos{\alpha}\cdot\sin{\beta}$: [Formula 6](./formula6/README.md)
+7. $\sin{\alpha - \beta} = \sin{\alpha}\cdot\cos{\beta} - \cos{\alpha}\cdot\sin{\beta}$: [Formula 7](./formula7/README.md)
