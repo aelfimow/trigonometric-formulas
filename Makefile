@@ -19,34 +19,11 @@ LDFLAGS = -lquadmath
 export CXXFLAGS
 export LDFLAGS
 
-.PHONY: formula1
-.PHONY: formula2
-.PHONY: formula3
-.PHONY: formula4
-.PHONY: formula5
-.PHONY: formula6
-.PHONY: formula7
+FORMULAS = $(wildcard formula*)
+.PHONY: $(FORMULAS)
 
-all: formula1 formula2 formula3 formula4 formula5 \
-     formula6 formula7
+all: $(FORMULAS)
+	$(info Finished, no errors)
 
-formula1:
-	${MAKE} -C formula1
-
-formula2:
-	${MAKE} -C formula2
-
-formula3:
-	${MAKE} -C formula3
-
-formula4:
-	${MAKE} -C formula4
-
-formula5:
-	${MAKE} -C formula5
-
-formula6:
-	${MAKE} -C formula6
-
-formula7:
-	${MAKE} -C formula7
+$(FORMULAS):
+	$(MAKE) -C $@
