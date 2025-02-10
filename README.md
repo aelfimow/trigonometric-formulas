@@ -12,3 +12,5 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 7. $\sin{\alpha - \beta} = \sin{\alpha}\cdot\cos{\beta} - \cos{\alpha}\cdot\sin{\beta}$: [Formula 7](./formula7/README.md)
 8. $\cos{\alpha + \beta} = \cos{\alpha}\cdot\cos{\beta} - \sin{\alpha}\cdot\sin{\beta}$: [Formula 8](./formula8/README.md)
 9. $\cos{\alpha - \beta} = \cos{\alpha}\cdot\cos{\beta} + \sin{\alpha}\cdot\sin{\beta}$: [Formula 9](./formula9/README.md)
+10. $\tan{\alpha + \beta} = \frac{\tan{\alpha} + \tan{\beta}}{1 - \tan{\alpha}\cdot\tan{\beta}}$: [Formula 10](./formula10/README.md)
+11. $\tan{\alpha - \beta} = \frac{\tan{\alpha} - \tan{\beta}}{1 + \tan{\alpha}\cdot\tan{\beta}}$: [Formula 11](./formula11/README.md)
