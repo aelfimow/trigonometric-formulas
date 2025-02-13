@@ -16,3 +16,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 11. $\tan{\alpha - \beta} = \frac{\tan{\alpha} - \tan{\beta}}{1 + \tan{\alpha}\cdot\tan{\beta}}$: [Formula 11](./formula11/README.md)
 12. $\cot{\alpha + \beta} = \frac{\cot{\alpha}\cdot\cot{\beta} - 1}{\cot{\beta} + \cot{\alpha}}$: [Formula 12](./formula12/README.md)
 13. $\cot{\alpha - \beta} = \frac{\cot{\alpha}\cdot\cot{\beta} + 1}{\cot{\beta} - \cot{\alpha}}$: [Formula 13](./formula13/README.md)
+14. $\sin{(\alpha + \beta)}\cdot\sin{(\alpha - \beta)} = \cos^{2}{\beta} - \cos^{2}{\alpha}$: [Formula 14](./formula14/README.md)
