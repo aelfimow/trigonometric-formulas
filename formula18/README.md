@@ -2,4 +2,4 @@
 
 Formula from [Book 1](../Buch1.md), p. 160
 
-$\sin{\alpha} = \plusminus\frac{1}{\sqrt{1 + \cot^{2}{\alpha}}}$
+$\sin{\alpha} = \pm\frac{1}{\sqrt{1 + \cot^{2}{\alpha}}}$
