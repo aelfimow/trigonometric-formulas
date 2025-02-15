@@ -20,3 +20,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 15. $\cos{(\alpha + \beta)}\cdot\cos{(\alpha - \beta)} = \cos^{2}{\beta} - \sin^{2}{\alpha}$: [Formula 15](./formula15/README.md)
 16. $\sin{\alpha} = \plusminus\sqrt{1 - \cos^{2}{\alpha}}$: [Formula 16](./formula16/README.md)
 17. $\sin{\alpha} = \plusminus\frac{\tan{\alpha}}{\sqrt{1 + \tan^{2}{\alpha}}}$: [Formula 17](./formula17/README.md)
+18. $\sin{\alpha} = \plusminus\frac{1}{\sqrt{1 + \cot^{2}{\alpha}}}$: [Formula 18](./formula18/README.md)
