@@ -26,3 +26,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 21. $\cos{\alpha} = \pm\frac{\cot{\alpha}}{\sqrt{1 + \cot^{2}{\alpha}}}$: [Formula 21](./formula21/README.md)
 22. $\tan{\alpha} = \pm\frac{\sin{\alpha}}{\sqrt{1 - \sin^{2}{\alpha}}}$: [Formula 22](./formula22/README.md)
 23. $\tan{\alpha} = \pm\frac{\sqrt{1 - \cos^{2}{\alpha}}}{\cos{\alpha}}$: [Formula 23](./formula23/README.md)
+24. $\cot{\alpha} = \pm\frac{\sqrt{1 - \sin^{2}{\alpha}}}{\sin{\alpha}}$: [Formula 24](./formula24/README.md)
