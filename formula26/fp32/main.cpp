@@ -13,6 +13,8 @@
 
 int main(int, char *[])
 {
+    int const digits = 7;
+
     fp32 const epsilon = macheps();
 
     fp32 const delta_x = (2.0f * std::numbers::pi_v<fp32>);
@@ -40,7 +42,7 @@ int main(int, char *[])
         if (failed)
         {
             std::cout
-                << std::setprecision(10)
+                << std::setprecision(digits)
                 << "Check failed for (fp32): x = " << x
                 << "; diff = " << diff
                 << "; " << nominator << "/" << denominator
@@ -49,7 +51,7 @@ int main(int, char *[])
     }
 
     std::cout
-        << std::setprecision(10)
+        << std::setprecision(digits)
         << "Epsilon (fp32): "
         << epsilon
         << std::endl;
