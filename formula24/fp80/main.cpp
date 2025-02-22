@@ -13,6 +13,8 @@
 
 int main(int, char *[])
 {
+    int const digits = 21;
+
     fp80 const epsilon = macheps();
 
     fp80 const delta_x = (2.0L * std::numbers::pi_v<fp80>);
@@ -41,7 +43,7 @@ int main(int, char *[])
         if (failed)
         {
             std::cout
-                << std::setprecision(10)
+                << std::setprecision(digits)
                 << "Check failed for (fp80): alpha = " << alpha
                 << "; diff1 = " << diff1
                 << "; diff2 = " << diff2
@@ -51,7 +53,7 @@ int main(int, char *[])
     }
 
     std::cout
-        << std::setprecision(10)
+        << std::setprecision(digits)
         << "Epsilon (fp80): "
         << epsilon
         << std::endl;
