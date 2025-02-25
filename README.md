@@ -29,3 +29,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 24. $\cot{\alpha} = \pm\frac{\sqrt{1 - \sin^{2}{\alpha}}}{\sin{\alpha}}$: [Formula 24](./formula24/README.md)
 25. $\cot{\alpha} = \pm\frac{\cos{\alpha}}{\sqrt{1 - \cos^{2}{\alpha}}}$: [Formula 25](./formula25/README.md)
 26. $\sin{2\cdot\alpha} = 2\cdot\sin{\alpha}\cos{\alpha}$: [Formula 26](./formula26/README.md)
+27. $\cos{2\cdot\alpha} = \cos^{2}{\alpha} - \sin^{2}{\alpha}$: [Formula 27](./formula27/README.md)
