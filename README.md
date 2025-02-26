@@ -32,3 +32,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 27. $\cos{2\cdot\alpha} = \cos^{2}{\alpha} - \sin^{2}{\alpha}$: [Formula 27](./formula27/README.md)
 28. $\cos{2\cdot\alpha} = 1 - 2\cdot\sin^{2}{\alpha}$: [Formula 28](./formula28/README.md)
 29. $\cos{2\cdot\alpha} = 2\cdot\cos^{2}{\alpha} - 1$: [Formula 29](./formula29/README.md)
+30. $\tan{2\cdot\alpha} = \frac{2\cdot\tan{\alpha}}{1 - \tan^{2}{\alpha}}$: [Formula 30](./formula30/README.md)
