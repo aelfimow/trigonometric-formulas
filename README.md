@@ -35,3 +35,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 30. $\tan{2\cdot\alpha} = \frac{2\cdot\tan{\alpha}}{1 - \tan^{2}{\alpha}}$: [Formula 30](./formula30/README.md)
 31. $\tan{2\cdot\alpha} = \frac{2}{\cot{\alpha} - \tan{\alpha}}$: [Formula 31](./formula31/README.md)
 32. $\cot{2\cdot\alpha} = \frac{\cot^{2}{\alpha} - 1}{2\cdot\cot{\alpha}}$: [Formula 32](./formula32/README.md)
+33. $\cot{2\cdot\alpha} = \frac{\cot{\alpha} - \tan{\alpha}}{2}$: [Formula 33](./formula33/README.md)
