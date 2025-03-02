@@ -1,0 +1,12 @@
+FORMULAS = $(wildcard formula*)
+.PHONY: $(FORMULAS)
+
+all: $(FORMULAS)
+	$(info Finished, no errors)
+
+$(FORMULAS):
+	mkdir -p output/$@
+	$@/fp32/main.exe > output/$@/fp32-output.txt
+	$@/fp64/main.exe > output/$@/fp64-output.txt
+	$@/fp80/main.exe > output/$@/fp80-output.txt
+	$@/fp128/main.exe > output/$@/fp128-output.txt
