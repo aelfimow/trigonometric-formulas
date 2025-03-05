@@ -2,4 +2,4 @@
 
 Formula from [Book 1](../Buch1.md), p. 161
 
-$\tan{2\cdot\alpha} = \frac{2}{\cot{\alpha} - \tan{\alpha}}$
+$\tan{2\alpha} = \frac{2}{\cot{\alpha} - \tan{\alpha}}$
