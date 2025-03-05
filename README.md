@@ -39,3 +39,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 34. $\sin{\alpha} = 2\cdot\sin{\frac{\alpha}{2}}\cos{\frac{\alpha}{2}}$: [Formula 34](./formula34/README.md)
 35. $\cos{\alpha} = \cos^{2}{\frac{\alpha}{2}} - \sin^{2}{\frac{\alpha}{2}}$: [Formula 35](./formula35/README.md)
 36. $\cos{\alpha} = 1 - 2\cdot\sin^{2}{\frac{\alpha}{2}}$: [Formula 36](./formula36/README.md)
+37. $\cos{\alpha} = 2\cos^{2}{\frac{\alpha}{2}} - 1$: [Formula 37](./formula37/README.md)
