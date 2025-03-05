@@ -7,7 +7,7 @@
  * Right Hand Side:
  *
  * @f[
- *     1 - 2\cdot\sin^{2}{\alpha}
+ *     1 - 2\sin^{2}{\alpha}
  * @f]
  */
 fp80 rhs(fp80 x)
