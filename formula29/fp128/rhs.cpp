@@ -7,7 +7,7 @@
  * Right Hand Side:
  *
  * @f[
- *     2\cdot\cos^{2}{\alpha} - 1
+ *     2\cos^{2}{\alpha} - 1
  * @f]
  */
 fp128 rhs(fp128 x)
