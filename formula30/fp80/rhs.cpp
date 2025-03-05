@@ -7,7 +7,7 @@
  * Right Hand Side:
  *
  * @f[
- *     \frac{2\cdot\tan^{2}{\alpha}}{1 - \tan^{2}{\alpha}}
+ *     \frac{2\tan^{2}{\alpha}}{1 - \tan^{2}{\alpha}}
  * @f]
  */
 fp80 rhs(fp80 x)
