@@ -41,3 +41,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 36. $\cos{\alpha} = 1 - 2\sin^{2}{\frac{\alpha}{2}}$: [Formula 36](./formula36/README.md)
 37. $\cos{\alpha} = 2\cos^{2}{\frac{\alpha}{2}} - 1$: [Formula 37](./formula37/README.md)
 38. $\tan{\alpha} = \frac{2\tan{\frac{\alpha}{2}}}{1 - \tan^{2}{\frac{\alpha}{2}}}$: [Formula 38](./formula38/README.md)
+39. $\tan{\alpha} = \frac{2}{\cot{\frac{\alpha}{2}} - \tan{\frac{\alpha}{2}}}$: [Formula 39](./formula39/README.md)
