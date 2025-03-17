@@ -46,3 +46,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 41. $\cot{\alpha} = \frac{\cot{\frac{\alpha}{2}} - \tan{\frac{\alpha}{2}}}{2}$: [Formula 41](./formula41/README.md)
 42. $\sin{\frac{\alpha}{2}} = \sqrt{\frac{1 - \cos{\alpha}}{2}}$: [Formula 42](./formula42/README.md)
 43. $\cos{\frac{\alpha}{2}} = \sqrt{\frac{1 + \cos{\alpha}}{2}}$: [Formula 43](./formula43/README.md)
+44. $\tan{\frac{\alpha}{2}} = \sqrt{\frac{1 - \cos{\alpha}}{1 + \cos{\alpha}}}$: [Formula 44](./formula44/README.md)
