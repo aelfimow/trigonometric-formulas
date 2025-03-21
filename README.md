@@ -47,3 +47,4 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 42. $\sin{\frac{\alpha}{2}} = \sqrt{\frac{1 - \cos{\alpha}}{2}}$: [Formula 42](./formula42/README.md)
 43. $\cos{\frac{\alpha}{2}} = \sqrt{\frac{1 + \cos{\alpha}}{2}}$: [Formula 43](./formula43/README.md)
 44. $\tan{\frac{\alpha}{2}} = \sqrt{\frac{1 - \cos{\alpha}}{1 + \cos{\alpha}}}$: [Formula 44](./formula44/README.md)
+45. $\tan{\frac{\alpha}{2}} = \frac{1 - \cos{\alpha}}{\sin{\alpha}}$: [Formula 45](./formula45/README.md)
