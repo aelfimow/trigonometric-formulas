@@ -1,4 +1,4 @@
-# Formula 14
+# Formula 15
 
 Formula from [Book 1](../Buch1.md), p. 160
 
