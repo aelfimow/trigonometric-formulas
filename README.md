@@ -25,35 +25,35 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 ```
 * [Formula 6](./formula6/README.md)
 ```math
-\sin{\alpha + \beta} = \sin{\alpha}\cos{\beta} + \cos{\alpha}\sin{\beta}
+\sin{(\alpha + \beta)} = \sin{\alpha}\cos{\beta} + \cos{\alpha}\sin{\beta}
 ```
 * [Formula 7](./formula7/README.md)
 ```math
-\sin{\alpha - \beta} = \sin{\alpha}\cos{\beta} - \cos{\alpha}\sin{\beta}
+\sin{(\alpha - \beta)} = \sin{\alpha}\cos{\beta} - \cos{\alpha}\sin{\beta}
 ```
 * [Formula 8](./formula8/README.md)
 ```math
-\cos{\alpha + \beta} = \cos{\alpha}\cos{\beta} - \sin{\alpha}\sin{\beta}
+\cos{(\alpha + \beta)} = \cos{\alpha}\cos{\beta} - \sin{\alpha}\sin{\beta}
 ```
 * [Formula 9](./formula9/README.md)
 ```math
-\cos{\alpha - \beta} = \cos{\alpha}\cos{\beta} + \sin{\alpha}\sin{\beta}
+\cos{(\alpha - \beta)} = \cos{\alpha}\cos{\beta} + \sin{\alpha}\sin{\beta}
 ```
 * [Formula 10](./formula10/README.md)
 ```math
-\tan{\alpha + \beta} = \frac{\tan{\alpha} + \tan{\beta}}{1 - \tan{\alpha}\tan{\beta}}
+\tan{(\alpha + \beta)} = \frac{\tan{\alpha} + \tan{\beta}}{1 - \tan{\alpha}\tan{\beta}}
 ```
 * [Formula 11](./formula11/README.md)
 ```math
-\tan{\alpha - \beta} = \frac{\tan{\alpha} - \tan{\beta}}{1 + \tan{\alpha}\tan{\beta}}
+\tan{(\alpha - \beta)} = \frac{\tan{\alpha} - \tan{\beta}}{1 + \tan{\alpha}\tan{\beta}}
 ```
 * [Formula 12](./formula12/README.md)
 ```math
-\cot{\alpha + \beta} = \frac{\cot{\alpha}\cot{\beta} - 1}{\cot{\beta} + \cot{\alpha}}
+\cot{(\alpha + \beta)} = \frac{\cot{\alpha}\cot{\beta} - 1}{\cot{\beta} + \cot{\alpha}}
 ```
 * [Formula 13](./formula13/README.md)
 ```math
-\cot{\alpha - \beta} = \frac{\cot{\alpha}\cot{\beta} + 1}{\cot{\beta} - \cot{\alpha}}
+\cot{(\alpha - \beta)} = \frac{\cot{\alpha}\cot{\beta} + 1}{\cot{\beta} - \cot{\alpha}}
 ```
 * [Formula 14](./formula14/README.md)
 ```math
