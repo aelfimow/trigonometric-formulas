@@ -191,3 +191,7 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 ```math
 \cot{\frac{\alpha}{2}} = \sqrt{\frac{1 + \cos{\alpha}}{1 - \cos{\alpha}}}
 ```
+* [Formula 48](./formula48/README.md)
+```math
+\cot{\frac{\alpha}{2}} = \frac{1 + \cos{\alpha}}{\sin{\alpha}}
+```
