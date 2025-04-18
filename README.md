@@ -195,3 +195,7 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 ```math
 \cot{\frac{\alpha}{2}} = \frac{1 + \cos{\alpha}}{\sin{\alpha}}
 ```
+* [Formula 49](./formula49/README.md)
+```math
+\cot{\frac{\alpha}{2}} = \frac{\sin{\alpha}}{1 - \cos{\alpha}}
+```
