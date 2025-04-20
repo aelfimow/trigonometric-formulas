@@ -207,3 +207,7 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 ```math
 \sin{\alpha} = \sqrt{\frac{1 - \cos{2\alpha}}{2}}
 ```
+* [Formula 52](./formula52/README.md)
+```math
+\cos{\alpha} = \sqrt{\frac{1 + \cos{2\alpha}}{2}}
+```
