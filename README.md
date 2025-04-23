@@ -215,3 +215,7 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 ```math
 \tan{\alpha} = \sqrt{\frac{1 - \cos{2\alpha}}{1 + \cos{2\alpha}}}
 ```
+* [Formula 54](./formula54/README.md)
+```math
+\tan{\alpha} = \frac{1 - \cos{2\alpha}}{\sin{2\alpha}}
+```
