@@ -211,3 +211,7 @@ Computation with some trigonometric-formulas like sin, cos, tan, cot.
 ```math
 \cos{\alpha} = \sqrt{\frac{1 + \cos{2\alpha}}{2}}
 ```
+* [Formula 53](./formula53/README.md)
+```math
+\tan{\alpha} = \sqrt{\frac{1 - \cos{2\alpha}}{1 + \cos{2\alpha}}}
+```
