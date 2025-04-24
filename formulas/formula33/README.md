@@ -1,5 +1,5 @@
 # Formula 33
 
-Formula from [Book 1](../Buch1.md), p. 161
+Formula from [Book 1](../../Buch1.md), p. 161
 
 $\cot{2\alpha} = \frac{\cot{\alpha} - \tan{\alpha}}{2}$
