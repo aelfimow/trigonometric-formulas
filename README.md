@@ -219,3 +219,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \tan{\alpha} = \frac{1 - \cos{2\alpha}}{\sin{2\alpha}}
 ```
+* [Formula 55](./formulas/formula55/README.md)
+```math
+\cot{\alpha} = \sqrt{\frac{1 + \cos{2\alpha}}{1 - \cos{2\alpha}}}
+```
