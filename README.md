@@ -227,3 +227,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cot{\alpha} = \frac{\sin{2\alpha}}{1 - \cos{2\alpha}}
 ```
+* [Formula 57](./formulas/formula57/README.md)
+```math
+\cot{\alpha} = \frac{1 + \cos{2\alpha}}{\sin{2\alpha}}
+```
