@@ -223,3 +223,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cot{\alpha} = \sqrt{\frac{1 + \cos{2\alpha}}{1 - \cos{2\alpha}}}
 ```
+* [Formula 56](./formulas/formula56/README.md)
+```math
+\cot{\alpha} = \frac{\sin{2\alpha}}{1 - \cos{2\alpha}}
+```
