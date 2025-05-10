@@ -231,3 +231,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cot{\alpha} = \frac{1 + \cos{2\alpha}}{\sin{2\alpha}}
 ```
+* [Formula 58](./formulas/formula58/README.md)
+```math
+\sin{(3\alpha)} = 3\sin{\alpha} - 4\sin^3{\alpha}
+```
