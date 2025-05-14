@@ -235,3 +235,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sin{(3\alpha)} = 3\sin{\alpha} - 4\sin^3{\alpha}
 ```
+* [Formula 59](./formulas/formula59/README.md)
+```math
+\sin{(4\alpha)} = 8\sin{\alpha}\cos^3{\alpha} - 4\sin^3{\alpha}\cos{\alpha}
+```
