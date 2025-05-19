@@ -239,3 +239,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sin{(4\alpha)} = 8\sin{\alpha}\cos^3{\alpha} - 4\sin{\alpha}\cos{\alpha}
 ```
+* [Formula 60](./formulas/formula60/README.md)
+```math
+\sin{(5\alpha)} = 16\sin{\alpha}\cos^4{\alpha} - 12\sin{\alpha}\cos^2{\alpha} + \sin{\alpha}
+```
