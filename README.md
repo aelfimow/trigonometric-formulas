@@ -243,3 +243,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sin{(5\alpha)} = 16\sin{\alpha}\cos^4{\alpha} - 12\sin{\alpha}\cos^2{\alpha} + \sin{\alpha}
 ```
+* [Formula 61](./formulas/formula61/README.md)
+```math
+\cos{(3\alpha)} = 4\cos^3{\alpha} - 3\cos{\alpha}
+```
