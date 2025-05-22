@@ -1,4 +1,4 @@
-# Formula 58
+# Formula 61
 
 Formula from [Book 1](../../Buch1.md), p. 162
 
