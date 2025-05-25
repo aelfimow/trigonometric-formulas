@@ -247,3 +247,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cos{(3\alpha)} = 4\cos^3{\alpha} - 3\cos{\alpha}
 ```
+* [Formula 62](./formulas/formula62/README.md)
+```math
+\cos{(4\alpha)} = 8\cos^4{\alpha} - 8\cos^2{\alpha} + 1
+```
