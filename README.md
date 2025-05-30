@@ -251,3 +251,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cos{(4\alpha)} = 8\cos^4{\alpha} - 8\cos^2{\alpha} + 1
 ```
+* [Formula 63](./formulas/formula63/README.md)
+```math
+\cos{(5\alpha)} = 16\cos^5{\alpha} - 20\cos^3{\alpha} + 5\cos{\alpha}
+```
