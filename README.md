@@ -255,3 +255,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cos{(5\alpha)} = 16\cos^5{\alpha} - 20\cos^3{\alpha} + 5\cos{\alpha}
 ```
+* [Formula 64](./formulas/formula64/README.md)
+```math
+\tan{(3\alpha)} = \frac{3\tan{\alpha} - \tan^3{\alpha}}{1 - 3\tan^2{\alpha}}
+```
