@@ -259,3 +259,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \tan{(3\alpha)} = \frac{3\tan{\alpha} - \tan^3{\alpha}}{1 - 3\tan^2{\alpha}}
 ```
+* [Formula 65](./formulas/formula65/README.md)
+```math
+\tan{(4\alpha)} = \frac{4\tan{\alpha} - 4\tan^3{\alpha}}{1 - 6\tan^2{\alpha} + \tan^4{\alpha}}
+```
