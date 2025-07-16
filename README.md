@@ -263,3 +263,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \tan{(4\alpha)} = \frac{4\tan{\alpha} - 4\tan^3{\alpha}}{1 - 6\tan^2{\alpha} + \tan^4{\alpha}}
 ```
+* [Formula 66](./formulas/formula66/README.md)
+```math
+\cot{(3\alpha)} = \frac{\cot^3{\alpha} - 3\cot{\alpha}}{3\cot^2{\alpha} - 1}
+```
