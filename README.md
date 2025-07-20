@@ -271,3 +271,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cot{(4\alpha)} = \frac{\cot^4{\alpha} - 6\cot^2{\alpha} + 1}{4\cot^3{\alpha} - 4\cot{\alpha}}
 ```
+* [Formula 68](./formulas/formula68/README.md)
+```math
+\sin{\alpha} + \sin{\beta} = 2 \sin{\frac{\alpha + \beta}{2}} \cos{\frac{\alpha - \beta}{2}}
+```
