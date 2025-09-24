@@ -283,3 +283,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cos{\alpha} + \cos{\beta} = 2 \cos{\frac{\alpha + \beta}{2}} \cos{\frac{\alpha - \beta}{2}}
 ```
+* [Formula 71](./formulas/formula71/README.md)
+```math
+\cos{\alpha} - \cos{\beta} = -2 \sin{\frac{\alpha + \beta}{2}} \sin{\frac{\alpha - \beta}{2}}
+```
