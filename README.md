@@ -295,3 +295,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \tan{\alpha} - \tan{\beta} = \frac{\sin{(\alpha - \beta)}}{\cos{\alpha}\cos{\beta}}
 ```
+* [Formula 74](./formulas/formula74/README.md)
+```math
+\cot{\alpha} + \cot{\beta} = \frac{\sin{(\alpha + \beta)}}{\sin{\alpha}\sin{\beta}}
+```
