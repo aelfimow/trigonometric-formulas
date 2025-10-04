@@ -303,3 +303,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cot{\alpha} - \cot{\beta} = \frac{\sin{(\beta - \alpha)}}{\sin{\alpha}\sin{\beta}}
 ```
+* [Formula 76](./formulas/formula76/README.md)
+```math
+\cos{\alpha} + \sin{\alpha} = \sqrt{2} \sin{(45^\circ + \alpha)}
+```
