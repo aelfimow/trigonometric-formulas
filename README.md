@@ -315,3 +315,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sqrt{2} \sin{(45^\circ + \alpha)} = \sqrt{2} \cos{(45^\circ - \alpha)}
 ```
+* [Formula 79](./formulas/formula79/README.md)
+```math
+\cos{\alpha} - \sin{\alpha} = \sqrt{2} \sin{(45^\circ - \alpha)}
+```
