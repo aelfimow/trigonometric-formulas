@@ -323,3 +323,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cos{\alpha} - \sin{\alpha} = \sqrt{2} \cos{(45^\circ + \alpha)}
 ```
+* [Formula 81](./formulas/formula81/README.md)
+```math
+\sqrt{2} \sin{(45^\circ - \alpha)} = \sqrt{2} \cos{(45^\circ + \alpha)}
+```
