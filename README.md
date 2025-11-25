@@ -327,3 +327,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sqrt{2} \sin{(45^\circ - \alpha)} = \sqrt{2} \cos{(45^\circ + \alpha)}
 ```
+* [Formula 82](./formulas/formula82/README.md)
+```math
+\sin{\alpha} \sin{\beta} = \frac{1}{2} (\cos{(\alpha - \beta)} - \cos{(\alpha + \beta)})
+```
