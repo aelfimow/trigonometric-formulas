@@ -335,3 +335,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cos{\alpha} \cos{\beta} = \frac{1}{2} (\cos{(\alpha - \beta)} + \cos{(\alpha + \beta)})
 ```
+* [Formula 84](./formulas/formula84/README.md)
+```math
+\sin{\alpha} \cos{\beta} = \frac{1}{2} (\sin{(\alpha + \beta)} + \sin{(\alpha - \beta)})
+```
