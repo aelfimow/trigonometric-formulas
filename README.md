@@ -343,3 +343,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cos{\alpha} \sin{\beta} = \frac{1}{2} (\sin{(\alpha + \beta)} - \sin{(\alpha - \beta)})
 ```
+* [Formula 86](./formulas/formula86/README.md)
+```math
+\tan{\alpha} \tan{\beta} = \frac{\tan{\alpha} + \tan{\beta}}{\cot{\alpha} + \cot{\beta}}
+```
