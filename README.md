@@ -347,3 +347,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \tan{\alpha} \tan{\beta} = \frac{\tan{\alpha} + \tan{\beta}}{\cot{\alpha} + \cot{\beta}}
 ```
+* [Formula 87](./formulas/formula87/README.md)
+```math
+\tan{\alpha} \tan{\beta} = -\frac{\tan{\alpha} - \tan{\beta}}{\cot{\alpha} - \cot{\beta}}
+```
