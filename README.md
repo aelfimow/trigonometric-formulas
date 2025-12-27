@@ -375,3 +375,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \cot{\alpha} \tan{\beta} = -\frac{\cot{\alpha} - \tan{\beta}}{\tan{\alpha} - \cot{\beta}}
 ```
+* [Formula 94](./formulas/formula94/README.md)
+```math
+\sin{\alpha} \sin{\beta} \sin{\gamma} = \frac{1}{4} (\sin{(\alpha + \beta - \gamma)} + \sin{(\beta + \gamma - \alpha)} + \sin{(\gamma + \alpha - \beta)} - \sin{(\alpha + \beta + \gamma)})
+```
