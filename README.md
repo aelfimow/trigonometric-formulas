@@ -379,3 +379,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sin{\alpha} \sin{\beta} \sin{\gamma} = \frac{1}{4} (\sin{(\alpha + \beta - \gamma)} + \sin{(\beta + \gamma - \alpha)} + \sin{(\gamma + \alpha - \beta)} - \sin{(\alpha + \beta + \gamma)})
 ```
+* [Formula 95](./formulas/formula95/README.md)
+```math
+\cos{\alpha} \cos{\beta} \cos{\gamma} = \frac{1}{4} (\cos{(\alpha + \beta - \gamma)} + \cos{(\beta + \gamma - \alpha)} + \cos{(\gamma + \alpha - \beta)} + \cos{(\alpha + \beta + \gamma)})
+```
