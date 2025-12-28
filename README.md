@@ -387,3 +387,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sin{\alpha} \sin{\beta} \cos{\gamma} = \frac{1}{4} (-\cos{(\alpha + \beta - \gamma)} + \cos{(\beta + \gamma - \alpha)} + \cos{(\gamma + \alpha - \beta)} - \cos{(\alpha + \beta + \gamma)})
 ```
+* [Formula 97](./formulas/formula97/README.md)
+```math
+\sin{\alpha} \cos{\beta} \cos{\gamma} = \frac{1}{4} (\sin{(\alpha + \beta - \gamma)} - \sin{(\beta + \gamma - \alpha)} + \sin{(\gamma + \alpha - \beta)} + \sin{(\alpha + \beta + \gamma)})
+```
