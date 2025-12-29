@@ -391,3 +391,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sin{\alpha} \cos{\beta} \cos{\gamma} = \frac{1}{4} (\sin{(\alpha + \beta - \gamma)} - \sin{(\beta + \gamma - \alpha)} + \sin{(\gamma + \alpha - \beta)} + \sin{(\alpha + \beta + \gamma)})
 ```
+* [Formula 98](./formulas/formula98/README.md)
+```math
+\sin^{2}{\alpha} = \frac{1}{2}(1 - \cos{2\alpha})
+```
