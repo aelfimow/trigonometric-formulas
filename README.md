@@ -395,3 +395,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sin^{2}{\alpha} = \frac{1}{2}(1 - \cos{2\alpha})
 ```
+* [Formula 99](./formulas/formula99/README.md)
+```math
+\cos^{2}{\alpha} = \frac{1}{2}(1 + \cos{2\alpha})
+```
