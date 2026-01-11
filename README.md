@@ -403,3 +403,7 @@ Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, 
 ```math
 \sin^{3}{\alpha} = \frac{1}{4}(3\sin{\alpha} - \sin{3\alpha})
 ```
+* [Formula 101](./formulas/formula101/README.md)
+```math
+\cos^{3}{\alpha} = \frac{1}{4}(3\cos{\alpha} + \cos{3\alpha})
+```
