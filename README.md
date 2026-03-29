@@ -2,7 +2,7 @@
 
 Computation with some trigonometric formulas with $\sin()$, $\cos()$, $\tan()$, $\cot()$ from [Book 1](./Buch1.md).
 
-See also [trigonometric-formulas-arm64](https://github.com/aelfimow/trigonometric-formulas-arm64) using Visual Studio 2026.
+See also [trigonometric-formulas-arm64](https://github.com/aelfimow/trigonometric-formulas-arm64) using Visual Studio 2026 for ARM64.
 
 
 * [Formula 1](./formulas/formula1/README.md)
